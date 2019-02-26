@@ -79,36 +79,37 @@ Firebaseのどの機能を使うのか聞かれるので、 **FunctionsとHostin
 
 Firebaseのどのプロジェクトと紐付けるか聞かれるので、先程作成したプロジェクトを上下キーで選択し、Enterキー
 
+![images/image008.png](https://github.com/kappa0923/url-shortener-firebase/blob/master/images/image008.png?raw=true)
+
 いくつかSetupに関する設定を聞かれるので以下のように入力
 
 1. `What file should be used for Firestore Rules?`
     - Firestoreのルールに使用するファイルを聞かれているので、何も入力せずEnter(firestore.rules)
-2. ``
-3. `File firestore.rules already exists. Do you want to overwrite it with the Firestore Rules from the Firebase Console?`
+2. `File firestore.rules already exists. Do you want to overwrite it with the Firestore Rules from the Firebase Console?`
     - Firestoreのルールがすでに存在するけど、上書きするか聞かれているので、 `N` を入力
-4. `What file should be used for Firestore indexes?`
+3. `What file should be used for Firestore indexes?`
     - Firestoreのindexに使用するファイルを聞かれているので、何も入力せずEnter(firestore.indexes.json)
-5. `File firestore.indexes.json already exists. Do you want to overwrite it with the Firestore Indexes from the Firebase Console?`
+4. `File firestore.indexes.json already exists. Do you want to overwrite it with the Firestore Indexes from the Firebase Console?`
     - Firestoreのindexに使用するファイルがすでに存在するけど、上書きするか聞かれているので、 `N` を入力
-6. `What language would you like to use to write Cloud Functions?`
+5. `What language would you like to use to write Cloud Functions?`
     - Cloud Functionsで使う言語を聞かれているので、 `TypeScript` を選択
-7. `Do you want to use TSLint to catch probable bugs and enforce style?`
+6. `Do you want to use TSLint to catch probable bugs and enforce style?`
     - TSLintを使うか聞かれているので、 `Y` を入力
-8. `File functions/package.json already exists. Overwrite?`
+7. `File functions/package.json already exists. Overwrite?`
     - package.jsonがすでに存在するけど、上書きするか聞かれているので、 `N` を入力
-9. `File functions/tsconfig.json already exists. Overwrite?`
+8.  `File functions/tsconfig.json already exists. Overwrite?`
     - tsconfig.jsonがすでに存在するけど、上書きするか聞かれているので、 `N` を入力
-10. `File functions/src/index.ts already exists. Overwrite?`
+9.  `File functions/src/index.ts already exists. Overwrite?`
     - index.tsがすでに存在するけど、上書きするか聞かれているので、 `N` を入力
-11. `Do you want to install dependencies with npm now?`
+10. `Do you want to install dependencies with npm now?`
     - npmでパッケージをすぐにインストールするか聞かれているので、 `Y` を入力
-12. `What do you want to use as your public directory?`
+11. `What do you want to use as your public directory?`
     - Hostingで公開するディレクトリを聞かれているので、何も入力せずEnter(public)
-13. `Configure as a single-page app (rewrite all urls to /index.html)?`
+12. `Configure as a single-page app (rewrite all urls to /index.html)?`
     - SPAとして公開するため全てのリクエストをindex.htmlにリライトするか聞かれているので、 `N` を入力
-14. `File public/404.html already exists. Overwrite?`
+13. `File public/404.html already exists. Overwrite?`
     - 404.htmlを上書きするか聞かれているので、 `N` を入力
-15. `File public/index.html already exists. Overwrite?`
+14. `File public/index.html already exists. Overwrite?`
     - index.htmlを上書きするか聞かれているので、 `N` を入力
 
 ## 3. Firebaseのconfigを追加
